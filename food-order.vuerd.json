@@ -3,8 +3,8 @@
     "version": "2.2.10",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -22,
-    "scrollLeft": 0,
+    "scrollTop": -40,
+    "scrollLeft": -4,
     "zoomLevel": 1,
     "show": {
       "tableComment": false,
@@ -114,36 +114,13 @@
               "widthDefault": 60
             },
             "id": "6975bae5-198e-4a33-9c0f-26c758294646"
-          },
-          {
-            "name": "restaurant_id",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 77.8798828125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "91e0acdf-57b3-4f46-94a3-634f4b14f494"
           }
         ],
         "ui": {
           "active": false,
-          "left": 102,
-          "top": 91,
-          "zIndex": 269,
+          "left": 411,
+          "top": 72,
+          "zIndex": 353,
           "widthName": 60,
           "widthComment": 60
         },
@@ -214,7 +191,7 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
@@ -222,13 +199,36 @@
               "widthDefault": 60
             },
             "id": "cad0bdd3-2c4b-4908-afe8-87ddcff0f975"
+          },
+          {
+            "name": "user_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "93f1c8d3-77de-4bb2-8515-c0b7d0bbb7a7"
           }
         ],
         "ui": {
           "active": false,
-          "left": 575,
-          "top": 102,
-          "zIndex": 259,
+          "left": 426,
+          "top": 360,
+          "zIndex": 362,
           "widthName": 60.53173828125,
           "widthComment": 60
         },
@@ -322,7 +322,7 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
@@ -334,9 +334,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 732,
-          "top": 387,
-          "zIndex": 260,
+          "left": 43,
+          "top": 603,
+          "zIndex": 365,
           "widthName": 60,
           "widthComment": 60
         },
@@ -379,7 +379,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -392,29 +392,6 @@
               "widthDefault": 60
             },
             "id": "89aad445-a7c6-4aa2-acc4-3ff332d38c76"
-          },
-          {
-            "name": "restaurant_id",
-            "comment": "",
-            "dataType": "INT",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 77.8798828125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            },
-            "id": "35c803d2-2d3a-4a48-9bba-911fd2df0178"
           },
           {
             "name": "user_id",
@@ -438,13 +415,36 @@
               "widthDefault": 60
             },
             "id": "836708ac-1f0c-4972-be6d-0f44e93f3293"
+          },
+          {
+            "name": "restaurant_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 77.8798828125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "27025301-0e63-4862-bac2-eb52f4a9fb62"
           }
         ],
         "ui": {
           "active": false,
-          "left": 332,
-          "top": 386,
-          "zIndex": 258,
+          "left": 846,
+          "top": 541,
+          "zIndex": 351,
           "widthName": 60,
           "widthComment": 60
         },
@@ -464,7 +464,7 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
@@ -500,13 +500,36 @@
               "widthDefault": 60
             },
             "id": "7d44c550-e7b5-4a5b-a19b-7b8d3d8ac0ae"
+          },
+          {
+            "name": "restaurant_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 77.8798828125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "9ee06708-517f-419c-84ce-e90d164a21e7"
           }
         ],
         "ui": {
           "active": false,
-          "left": 25,
-          "top": 507,
-          "zIndex": 277,
+          "left": 24,
+          "top": 90,
+          "zIndex": 364,
           "widthName": 60,
           "widthComment": 60
         },
@@ -589,14 +612,76 @@
         ],
         "ui": {
           "active": false,
-          "left": 185,
-          "top": 779,
-          "zIndex": 278,
+          "left": 828,
+          "top": 79,
+          "zIndex": 355,
           "widthName": 60,
           "widthComment": 60
         },
         "visible": true,
         "id": "5a35e83e-cfdf-41c4-bac3-4b67f6d14426"
+      },
+      {
+        "name": "menu_items",
+        "comment": "",
+        "columns": [
+          {
+            "name": "menu_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "6a4f004f-9728-40c2-99a2-6b4cc12d78ef"
+          },
+          {
+            "name": "order_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "ed446f5a-0281-40c7-bd06-1c7fd78e8543"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 520,
+          "top": 801,
+          "zIndex": 358,
+          "widthName": 72.80810546875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "f6fa533b-e6d5-4f03-b62f-4310b033535f"
       }
     ],
     "indexes": []
@@ -611,38 +696,12 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "b93969eb-a50f-4110-ad3a-0d7c8c676c0c",
-          "columnIds": [
-            "7c12acde-ba29-48cc-b6d0-79e2e0689abb"
-          ],
-          "x": 575,
-          "y": 134.625,
-          "direction": "left"
-        },
-        "end": {
-          "tableId": "3b043e85-3176-4195-867e-1620838f2dca",
-          "columnIds": [
-            "91e0acdf-57b3-4f46-94a3-634f4b14f494"
-          ],
-          "x": 361.48681640625,
-          "y": 128.75,
-          "direction": "right"
-        },
-        "constraintName": "fk_restaurant_to_user",
-        "visible": true,
-        "id": "bfcc35db-97c9-4953-bef9-5b4917437f26"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "3b043e85-3176-4195-867e-1620838f2dca",
           "columnIds": [
             "05f424a0-e43c-47d7-9960-634bcf73963f"
           ],
-          "x": 361.48681640625,
-          "y": 204.25,
+          "x": 652.60693359375,
+          "y": 169.875,
           "direction": "right"
         },
         "end": {
@@ -650,8 +709,8 @@
           "columnIds": [
             "836708ac-1f0c-4972-be6d-0f44e93f3293"
           ],
-          "x": 395.719970703125,
-          "y": 386,
+          "x": 973.43994140625,
+          "y": 541,
           "direction": "top"
         },
         "constraintName": "fk_user_to_order",
@@ -663,48 +722,22 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "255079f1-d7f2-4128-b815-f29ab8dd0a6f",
-          "columnIds": [
-            "fc96733a-4bf1-4aef-82ac-89a4ef3a8213"
-          ],
-          "x": 523.159912109375,
-          "y": 386,
-          "direction": "top"
-        },
-        "end": {
-          "tableId": "b93969eb-a50f-4110-ad3a-0d7c8c676c0c",
-          "columnIds": [
-            "cad0bdd3-2c4b-4908-afe8-87ddcff0f975"
-          ],
-          "x": 575,
-          "y": 199.875,
-          "direction": "left"
-        },
-        "constraintName": "fk_order_to_restaurant",
-        "visible": true,
-        "id": "ca965c62-c07c-4460-8899-a1adf0cadd09"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "b93969eb-a50f-4110-ad3a-0d7c8c676c0c",
           "columnIds": [
             "7c12acde-ba29-48cc-b6d0-79e2e0689abb"
           ],
-          "x": 816.60693359375,
-          "y": 167.25,
-          "direction": "right"
+          "x": 426,
+          "y": 397.75,
+          "direction": "left"
         },
         "end": {
           "tableId": "18b0d4d9-13d7-4913-9662-d47e561e336b",
           "columnIds": [
             "a733c37e-68e5-43de-8041-5f7e4a9384d2"
           ],
-          "x": 861.743408203125,
-          "y": 387,
-          "direction": "top"
+          "x": 302.48681640625,
+          "y": 716.25,
+          "direction": "right"
         },
         "constraintName": "fk_restaurant_to_menu",
         "visible": true,
@@ -715,48 +748,22 @@
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
         "start": {
-          "tableId": "255079f1-d7f2-4128-b815-f29ab8dd0a6f",
-          "columnIds": [
-            "fc96733a-4bf1-4aef-82ac-89a4ef3a8213"
-          ],
-          "x": 586.8798828125,
-          "y": 461.5,
-          "direction": "right"
-        },
-        "end": {
-          "tableId": "18b0d4d9-13d7-4913-9662-d47e561e336b",
-          "columnIds": [
-            "fd7f4529-b535-4a8c-991c-3d6666c65bcc"
-          ],
-          "x": 732,
-          "y": 462.5,
-          "direction": "left"
-        },
-        "constraintName": "fk_order_to_menu",
-        "visible": true,
-        "id": "b25751dd-977a-4c40-9a22-492eab26e00b"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
           "tableId": "3b043e85-3176-4195-867e-1620838f2dca",
           "columnIds": [
             "05f424a0-e43c-47d7-9960-634bcf73963f"
           ],
-          "x": 296.6151123046875,
-          "y": 242,
-          "direction": "bottom"
+          "x": 652.60693359375,
+          "y": 104.625,
+          "direction": "right"
         },
         "end": {
           "tableId": "5a35e83e-cfdf-41c4-bac3-4b67f6d14426",
           "columnIds": [
             "cc3a51db-dd21-4996-a1ff-fc9e1436ca4e"
           ],
-          "x": 319.802490234375,
-          "y": 779,
-          "direction": "top"
+          "x": 828,
+          "y": 144.25,
+          "direction": "left"
         },
         "constraintName": "fk_user_to_address",
         "visible": true,
@@ -771,22 +778,152 @@
           "columnIds": [
             "05f424a0-e43c-47d7-9960-634bcf73963f"
           ],
-          "x": 166.8717041015625,
-          "y": 242,
-          "direction": "bottom"
+          "x": 411,
+          "y": 137.25,
+          "direction": "left"
         },
         "end": {
           "tableId": "01832875-cc5f-4b1c-b178-e93b3fdc9cb1",
           "columnIds": [
             "7d44c550-e7b5-4a5b-a19b-7b8d3d8ac0ae"
           ],
-          "x": 159.79296875,
-          "y": 507,
-          "direction": "top"
+          "x": 293.5859375,
+          "y": 122.625,
+          "direction": "right"
         },
         "constraintName": "fk_user_to_review",
         "visible": true,
         "id": "f34a7f10-5613-4183-9c84-80c52df624a1"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "3b043e85-3176-4195-867e-1620838f2dca",
+          "columnIds": [
+            "05f424a0-e43c-47d7-9960-634bcf73963f"
+          ],
+          "x": 531.803466796875,
+          "y": 202.5,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "b93969eb-a50f-4110-ad3a-0d7c8c676c0c",
+          "columnIds": [
+            "93f1c8d3-77de-4bb2-8515-c0b7d0bbb7a7"
+          ],
+          "x": 546.803466796875,
+          "y": 360,
+          "direction": "top"
+        },
+        "constraintName": "fk_user_to_restaurant",
+        "visible": true,
+        "id": "1a173aeb-5023-42af-b70d-01b27c54d49c"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b93969eb-a50f-4110-ad3a-0d7c8c676c0c",
+          "columnIds": [
+            "7c12acde-ba29-48cc-b6d0-79e2e0689abb"
+          ],
+          "x": 667.60693359375,
+          "y": 435.5,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "255079f1-d7f2-4128-b815-f29ab8dd0a6f",
+          "columnIds": [
+            "27025301-0e63-4862-bac2-eb52f4a9fb62"
+          ],
+          "x": 846,
+          "y": 578.75,
+          "direction": "left"
+        },
+        "constraintName": "fk_restaurant_to_order",
+        "visible": true,
+        "id": "2bedb0e0-b982-4c9f-aff8-c99268a4e89c"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "255079f1-d7f2-4128-b815-f29ab8dd0a6f",
+          "columnIds": [
+            "fc96733a-4bf1-4aef-82ac-89a4ef3a8213"
+          ],
+          "x": 846,
+          "y": 654.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "f6fa533b-e6d5-4f03-b62f-4310b033535f",
+          "columnIds": [
+            "6a4f004f-9728-40c2-99a2-6b4cc12d78ef"
+          ],
+          "x": 757,
+          "y": 856,
+          "direction": "right"
+        },
+        "constraintName": "fk_order_to_menu_items",
+        "visible": true,
+        "id": "429625f5-023c-446d-8c85-541306a1f6c1"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "18b0d4d9-13d7-4913-9662-d47e561e336b",
+          "columnIds": [
+            "53eef1f7-9b6d-455d-880b-79984c91f2da"
+          ],
+          "x": 302.48681640625,
+          "y": 640.75,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "f6fa533b-e6d5-4f03-b62f-4310b033535f",
+          "columnIds": [
+            "ed446f5a-0281-40c7-bd06-1c7fd78e8543"
+          ],
+          "x": 520,
+          "y": 856,
+          "direction": "left"
+        },
+        "constraintName": "fk_menu_to_menu_items",
+        "visible": true,
+        "id": "8b675132-05e5-4f21-8ae6-b5ceab3aa2f2"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b93969eb-a50f-4110-ad3a-0d7c8c676c0c",
+          "columnIds": [
+            "7c12acde-ba29-48cc-b6d0-79e2e0689abb"
+          ],
+          "x": 426,
+          "y": 473.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "01832875-cc5f-4b1c-b178-e93b3fdc9cb1",
+          "columnIds": [
+            "9ee06708-517f-419c-84ce-e90d164a21e7"
+          ],
+          "x": 293.5859375,
+          "y": 187.875,
+          "direction": "right"
+        },
+        "constraintName": "fk_restaurant_to_review",
+        "visible": true,
+        "id": "3d3cb7f8-3895-4ea3-b492-9175a17d92c3"
       }
     ]
   }

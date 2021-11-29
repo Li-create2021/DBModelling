@@ -3,8 +3,8 @@
     "version": "2.2.10",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -6,
-    "scrollLeft": 0,
+    "scrollTop": -8,
+    "scrollLeft": -3,
     "zoomLevel": 1,
     "show": {
       "tableComment": false,
@@ -137,13 +137,36 @@
               "widthDefault": 60
             },
             "id": "07160932-874c-4e9e-a787-815b7031960c"
+          },
+          {
+            "name": "school_id",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "8349c3af-3a47-44cf-8a97-cadbc722435e"
           }
         ],
         "ui": {
-          "active": true,
-          "left": 224,
-          "top": 365,
-          "zIndex": 118,
+          "active": false,
+          "left": 441,
+          "top": 41,
+          "zIndex": 130,
           "widthName": 60,
           "widthComment": 60
         },
@@ -260,7 +283,7 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
               "widthName": 60,
               "widthComment": 60,
@@ -295,9 +318,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 597,
-          "top": 151,
-          "zIndex": 114,
+          "left": 677,
+          "top": 333,
+          "zIndex": 125,
           "widthName": 60,
           "widthComment": 60
         },
@@ -357,9 +380,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 185,
-          "top": 113,
-          "zIndex": 117,
+          "left": 87,
+          "top": 380,
+          "zIndex": 122,
           "widthName": 60,
           "widthComment": 60
         },
@@ -376,41 +399,15 @@
     "relationships": [
       {
         "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "60b893c4-b418-4a92-8ddd-f9206a5923d5",
-          "columnIds": [
-            "07160932-874c-4e9e-a787-815b7031960c"
-          ],
-          "x": 489.99951171875,
-          "y": 440.5,
-          "direction": "right"
-        },
-        "end": {
-          "tableId": "29990aa8-8fb8-4142-b42f-ab64b27d3767",
-          "columnIds": [
-            "6a955771-0fd8-47d8-827f-b7f05a164349"
-          ],
-          "x": 597,
-          "y": 295,
-          "direction": "left"
-        },
-        "constraintName": "fk_student_to_school",
-        "visible": true,
-        "id": "de2662ad-c93f-4e9c-99ce-f0c3c411c34d"
-      },
-      {
-        "identification": false,
-        "relationshipType": "OneN",
+        "relationshipType": "OneOnly",
         "startRelationshipType": "Dash",
         "start": {
           "tableId": "7a04b549-c804-4a7a-93a3-4dd03720adb6",
           "columnIds": [
             "0ab57099-1d50-4c8d-8b0b-b3625ff20e85"
           ],
-          "x": 461.85400390625,
-          "y": 168,
+          "x": 363.85400390625,
+          "y": 435,
           "direction": "right"
         },
         "end": {
@@ -418,13 +415,39 @@
           "columnIds": [
             "3d75a4b2-479f-49cc-a875-674b135c3cb3"
           ],
-          "x": 597,
-          "y": 199,
+          "x": 677,
+          "y": 429,
           "direction": "left"
         },
         "constraintName": "fk_language_to_school",
         "visible": true,
         "id": "97b88c4b-9f9b-4f93-86ab-6aceba228c59"
+      },
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "29990aa8-8fb8-4142-b42f-ab64b27d3767",
+          "columnIds": [
+            "518b9b4c-c8e9-49ea-89cb-634acbd82ea7"
+          ],
+          "x": 807.467041015625,
+          "y": 333,
+          "direction": "top"
+        },
+        "end": {
+          "tableId": "60b893c4-b418-4a92-8ddd-f9206a5923d5",
+          "columnIds": [
+            "8349c3af-3a47-44cf-8a97-cadbc722435e"
+          ],
+          "x": 706.99951171875,
+          "y": 126.75,
+          "direction": "right"
+        },
+        "constraintName": "fk_school_to_student",
+        "visible": true,
+        "id": "0a9555e4-acc7-4c42-8ee8-b359664298aa"
       }
     ]
   }
